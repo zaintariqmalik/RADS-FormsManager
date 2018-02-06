@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <h1> <a class="navbar-brand" href="<?php echo site_url('DisplayController/showIndexFile')?>">PPIF</a></h1>
+        <h1> <a class="navbar-brand" href="<?php echo site_url('HRController')?>">Rads-Forms</a></h1>
     </div>
     <div class=" border-bottom">
 
@@ -23,16 +23,16 @@
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
 
+
                     <li>
-                        <a href="<?php echo site_url('DisplayController/showIndexFile')?>" class=" hvr-bounce-to-right"><i class="fa fa-users nav_icon"></i> <span class="nav-label">Social Mobilizer</span> </a>
+                        <a href="<?php echo site_url('HRController')?>" class=" hvr-bounce-to-right"><i class="fa fa-users nav_icon"></i> <span class="nav-label">HR</span> </a>
                     </li>
 
                     <li>
-                        <a href="<?php echo site_url('HouseholdController')?>" class=" hvr-bounce-to-right"><i class="fa fa-home nav_icon"></i> <span class="nav-label">Household</span> </a>
+                        <a href="<?php echo site_url('FinanceController')?>" class=" hvr-bounce-to-right"><i class="fa fa-calculator  nav_icon"></i> <span class="nav-label">Finance</span> </a>
                     </li>
-                    <li>
-                        <a href="<?php echo site_url('DisplayMapController')?>"  class=" hvr-bounce-to-right"><i class="fa fa-map-marker nav_icon"></i> <span class="nav-label">Map</span> </a>
-                    </li>
+
+
                     <li>
                         <a href="<?php echo site_url('LogoutController')?>"class=" hvr-bounce-to-right"><i class="fa fa-sign-out  nav_icon"></i> <span class="nav-label">Logout</span> </a>
                     </li>

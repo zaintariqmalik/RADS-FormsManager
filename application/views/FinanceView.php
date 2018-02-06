@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>HR Forms</title>
+<title>Finance Forms</title>
     <?php
     $this->load->view('head');
     ?>
@@ -30,7 +30,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h2>
 				<a href="<?php echo site_url('DisplayController/showIndexFile')?>">Home</a>
 				<i class="fa fa-angle-right"></i>
-				<span>HR</span>
+				<span>Finance</span>
 				</h2>
 		    </div>
 		<!--//banner-->
