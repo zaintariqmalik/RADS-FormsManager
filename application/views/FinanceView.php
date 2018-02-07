@@ -28,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		    <div class="banner">
 		   
 				<h2>
-				<a href="<?php echo site_url('DisplayController/showIndexFile')?>">Home</a>
+				<a href="<?php echo site_url('HRController')?>">Home</a>
 				<i class="fa fa-angle-right"></i>
 				<span>Finance</span>
 				</h2>
@@ -36,9 +36,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!--//banner-->
 		<!--content-->
 		<div class="container">
+            <!---Div for forms title-->
+            <div class="gallery">
+
+                <div class="col-md">
+                    <div class="text-gallery">
+                        <a href="#"> <h6>FA - 12 : Inter Fund Transfer Form</h6> </a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="text-gallery">
+                        <a href="#"><h6> FA - 17 : Cash withdrawal Form</h6></a>
+                    </div>
+                </div>
+                <div class="col-md">
+
+                    <div class="text-gallery">
+                        <a href="#"><h6> FA - 18 : Cheque Book Register</h6></a>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <!--End --div for forms title-->
 
 
-			<div class="clearfix"> </div>
+            <div class="clearfix"> </div>
 		</div>
 		<!----->
 

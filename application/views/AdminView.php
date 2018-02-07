@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>HR Forms</title>
+<title>Admin Forms</title>
     <?php
     $this->load->view('head');
     ?>
@@ -30,7 +30,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h2>
 				<a href="<?php echo site_url('HRController')?>">Home</a>
 				<i class="fa fa-angle-right"></i>
-				<span>HR</span>
+				<span>Admin</span>
 				</h2>
 		    </div>
 		<!--//banner-->
@@ -38,107 +38,115 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
             <!---Div for forms title-->
             <div class="gallery">
+
                 <div class="col-md">
                     <div class="text-gallery">
-                       <a href="#"> <h6>HR#001	: Personnel Recruitment Form</h6> </a>
+                        <a href="#"> <h6>HR#010 : Service Contract </h6> </a>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#002	: Job Description</h6></a>
+                        <a href="#"><h6>HR#016 : Request For Vehicle</h6></a>
                     </div>
                 </div>
                 <div class="col-md">
 
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#003	: Job Posting Bulletin</h6></a>
+                        <a href="#"><h6>HR#017
+                                : Request For Advance</h6></a>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#004	: Interview Evaluation Form</h6></a>
+                        <a href="#"><h6>HR#018
+                                : Travel Authorization Form</h6></a>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#">  <h6>HR#005 : 	Interview Guidelines</h6></a>
+                        <a href="#">  <h6>FA - 03
+                                : Goods Requisition Form</h6></a>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#006 : Employment Form</h6></a>
+                        <a href="#"><h6>FA - 04
+                                : Service Requisition Form</h6></a>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#007	: Reference Check Form</h6></a>
+                        <a href="#"><h6>FA - 06
+                                : Goods Receipt Note</h6></a>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#008 : Offer Letter</h6></a>
-                    </div>
-                </div>
-
-                <div class="col-md">
-                    <div class="text-gallery">
-                        <a href="#"><h6>HR#009 : Change Of Status Form</h6> </a>
-                    </div>
-                </div>
-
-                <div class="col-md">
-                    <div class="text-gallery">
-                        <a href="#"><h6>HR#011 : Employee Joining Report</h6> </a>
+                        <a href="#"><h6>FA - 07
+                                : Request For Quotation / Proposal</h6></a>
                     </div>
                 </div>
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#012 : Probationary Period Report</h6> </a>
+                        <a href="#"><h6>FA - 08
+                                : Purchase Order</h6> </a>
                     </div>
                 </div>
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#013 : Feedback Report On Training</h6> </a>
+                        <a href="#"><h6>FA - 09
+                                : Taxi Travel Claim Form</h6> </a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="text-gallery">
+                        <a href="#"><h6>FA - 13
+                                : Advance for Expenses Form</h6> </a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="text-gallery">
+                        <a href="#"><h6>FA - 14
+                                : Advance Adjustment Form</h6> </a>
                     </div>
                 </div>
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#014 : Trust Deed</h6> </a>
+                        <a href="#"><h6>FA - 15
+                                : Field / Travel Expenses Claim Form</h6> </a>
                     </div>
                 </div>
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#015 : Employee Annual Performance Evaluation Report</h6> </a>
+                        <a href="#"><h6>FA - 15
+                                : Imprest Replenishment Form</h6> </a>
                     </div>
                 </div>
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#023 : Short Leave Request Form</h6> </a>
+                        <a href="#"><h6>FA - 21
+                                : Vehicle Log Book</h6> </a>
                     </div>
                 </div>
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#024 : Leave Application Form</h6> </a>
-                    </div>
-                </div>
-
-                <div class="col-md">
-                    <div class="text-gallery">
-                        <a href="#"><h6>HR#025 : Employee Clearance Certificate</h6> </a>
+                        <a href="#"><h6>Asset Issuance Form for Field</h6> </a>
                     </div>
                 </div>
 
 
                 <div class="clearfix"> </div>
             </div>
-                <!--End --div for forms title-->
-			<div class="clearfix"> </div>
+            <!--End --div for forms title-->
+
+
+            <div class="clearfix"> </div>
 		</div>
 		<!----->
 

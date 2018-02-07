@@ -27,7 +27,9 @@
                     <li>
                         <a href="<?php echo site_url('HRController')?>" class=" hvr-bounce-to-right"><i class="fa fa-users nav_icon"></i> <span class="nav-label">HR</span> </a>
                     </li>
-
+                    <li>
+                        <a href="<?php echo site_url('AdminController')?>" class=" hvr-bounce-to-right"><i class="fa fa-user nav_icon"></i> <span class="nav-label">Admin</span> </a>
+                    </li>
                     <li>
                         <a href="<?php echo site_url('FinanceController')?>" class=" hvr-bounce-to-right"><i class="fa fa-calculator  nav_icon"></i> <span class="nav-label">Finance</span> </a>
                     </li>
