@@ -38,9 +38,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
             <!---Div for forms title-->
             <div class="gallery">
+
                 <div class="col-md">
                     <div class="text-gallery">
-                       <a href="#"> <h6>HR#001	: Personnel Recruitment Form</h6> </a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScQzrWGvAKuqh9hiJIazYoLFq3W1lkvpA0a79KA2ez0JJjmjg/viewform" target="_blank"><h6>Induction Report Rads</h6></a>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="text-gallery">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSenETVDk_uT_XMZGJcGVuPGpdeQ_Sl4Ew1eFN4SgAV_o55_pQ/viewform" target="_blank"><h6>Induction Report AHKRC</h6></a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="text-gallery">
+                       <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkVPAc-Z0K1LcWX-SvYW8yDmJJupvEphms_8FGXkyiKBD_vA/viewform" target="_blank"> <h6>HR#001	: Personnel Recruitment Form</h6> </a>
                     </div>
                 </div>
                 <div class="col-md">
@@ -66,12 +78,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#006 : Employment Form</h6></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdomOHQOm8tNb7vizlB1EUQBJ48TMuS5OG1mK8GnIcgywZ_8A/viewform" target="_blank"><h6>HR#006 : Employment Form</h6></a>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#007	: Reference Check Form</h6></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdd-tKzu6gswySkgmfhZzoQP_mjzHtzdQmRb3N94bc0f-W-Vg/formResponse" target="_blank"><h6>HR#007	: Reference Check Form</h6></a>
                     </div>
                 </div>
                 <div class="col-md">
@@ -94,7 +106,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#012 : Probationary Period Report</h6> </a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5weoWWmOC-0nzDycmqtiij3-iP5CvN6rCgMMPw1DoilZl1g/viewform" target="_blank"><h6>HR#012 : Probationary Period Report</h6> </a>
                     </div>
                 </div>
 
@@ -124,13 +136,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#024 : Leave Application Form</h6> </a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8K2mHIZjyBP4zO6K6qfgiaS8gO16utUK_rEsq1bTKbxUaYQ/viewform" target="_blank"><h6>HR#024 : Leave Application Form</h6> </a>
                     </div>
                 </div>
 
                 <div class="col-md">
                     <div class="text-gallery">
-                        <a href="#"><h6>HR#025 : Employee Clearance Certificate</h6> </a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScwZGqoCEjpkOUrYLXvVs4siUUjlft1aUMMm5K4LxNO_GIPUg/viewform" target="_blank"><h6>HR#025 : Employee Clearance Certificate</h6> </a>
                     </div>
                 </div>
 
