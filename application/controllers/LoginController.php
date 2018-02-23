@@ -43,9 +43,6 @@ class LoginController extends CI_Controller {
 
     public function checkLogin()
     {
-
-
-
         // Load session
         // IF session is set then call the model::getSurveyQuestions() to get data and pass to success
         $this->load->library('session');

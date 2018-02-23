@@ -1,154 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-    <title>Login Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
-        /*
-/* Created by Filipe Pina
- * Specific styles of signin, register, component
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Waqas Ahmad
+ * Date: 2/19/2018
+ * Time: 12:59 PM
  */
-        /*
-         * General styles
-         */
+?>
 
-        body, html{
-            height: 100%;
-            background-repeat: no-repeat;
-            background-color: #d3d3d3;
-            font-family: 'Oxygen', sans-serif;
-        }
-
-        .main{
-            margin-top: 70px;
-        }
-
-        h1.title {
-            font-size: 50px;
-            font-family: 'Passion One', cursive;
-            font-weight: 400;
-        }
-
-        hr{
-            width: 10%;
-            color: #fff;
-        }
-
-        .form-group{
-            margin-bottom: 15px;
-        }
-
-        label{
-            margin-bottom: 15px;
-        }
-
-        input,
-        input::-webkit-input-placeholder {
-            font-size: 11px;
-            padding-top: 3px;
-        }
-
-        .main-login{
-            background-color: #fff;
-            /* shadows and rounded borders */
-            -moz-border-radius: 2px;
-            -webkit-border-radius: 2px;
-            border-radius: 2px;
-            -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-            -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-
-        }
-
-        .main-center{
-            margin-top: 30px;
-            margin: 0 auto;
-            max-width: 330px;
-            padding: 40px 40px;
-
-        }
-
-        .login-button{
-            margin-top: 5px;
-        }
-
-        .login-register{
-            font-size: 11px;
-            text-align: center;
-        }
-
-    </style>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-</head>
-<body>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-
-    <!-- Website CSS style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-
-    <!-- Website Font style -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-
-    <title>Admin</title>
+<?php include "head.php";?>
 </head>
+
 <body>
-<div class="container">
-    <div class="row main">
-        <div class="panel-heading">
-            <div class="panel-title text-center">
-                <h1 class="title">AHKRC</h1>
-                <hr />
-            </div>
-        </div>
-        <div class="main-login main-center">
-          <!--  <p id="message"> Check</p>-->
-            <?php echo form_open('LoginController/checkLogin'); ?>
-            <div class="form-group">
-                <label for="email" class="cols-sm-2 control-label">Email</label>
-                <div class="cols-sm-10">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+<!-- Preloader -->
+<div class="preloader">
+    <div class="cssload-speeding-wheel"></div>
+</div>
+<section id="wrapper" class="login-register">
+    <div class="login-box">
+        <div class="white-box">
+            <div class="form-horizontal form-material">
+                <?php echo form_open('LoginController/checkLogin'); ?>
+                <div class="form-group">
+                    <div class="col-xs-12 text-center">
+                        <div class="user-thumb text-center"> <img alt="thumbnail" class="img-circle" width="100" src="<?php echo base_url(); ?>plugins/images/users/user.png">
+                            <h3>Login</h3> </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="form-group">
-                <label for="password" class="cols-sm-2 control-label">Password</label>
-                <div class="cols-sm-10">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                        <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+                <div class="form-group ">
+                    <div class="col-xs-12">
+                        <input class="form-control" type="text" required="" placeholder="Email" name="email"> </div>
+                </div>
+                <div class="form-group ">
+                    <div class="col-xs-12">
+                        <input class="form-control" type="password" required="" placeholder="Password" name="password"> </div>
+                </div>
+                <div class="form-group text-center">
+                    <div class="col-xs-12">
+                        <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Login</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="form-group ">
-                <input type="submit" class="btn btn-primary btn-lg btn-block login-button" value="Login">
-            </div>
 
             </form>
+            </div>
         </div>
     </div>
-</div>
-
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+</section>
+<?php include "scripts-links.php"?>
 </body>
-</html>
-<script type="text/javascript">
 
-</script>
-</body>
 </html>
